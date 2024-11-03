@@ -1,0 +1,28 @@
+/*DOCUMENTO CSS*/
+*{margin: 0;
+  padding: 0;}
+
+.ejemplo { background: rgb(226, 132, 108) !important; 
+           padding: 15px 0px;}
+
+.contenedor{ background: rgb(114, 63, 107); 
+             padding: 15px;
+             width: 80%;
+             margin: auto;
+             display: flex;
+             /*flex-wrap: wrap;
+             flex-direction: column-reverse;*/
+             flex-flow: wrap row;
+             justify-content: space-around;
+             min-height: 600px;
+             align-items: flex-start;
+            }
+
+.item { background: rgb(103, 146, 211);
+        width: 33.33%;
+        height: 100px;
+        text-align: center;
+        margin-bottom: 15px; 
+      } 
+
+.dos { align-self: flex-end; }

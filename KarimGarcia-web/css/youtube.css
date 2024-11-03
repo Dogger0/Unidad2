@@ -1,0 +1,19 @@
+/*Docuemnto css*/
+
+body{ margin: 0;
+      padding: 0;
+      font-family: Arial, Helvetica, sans-serif;
+       }
+
+.videos-container { display: flex;
+                    justify-content: space-around;
+                    flex-wrap: wrap; }
+
+.vieo { flex: 0 1 30%;
+        margin: 10px;
+        text-align: center; 
+    }
+
+.video iframe { width: 100%; }
+
+.video h2, .video p { margin: px 0;}

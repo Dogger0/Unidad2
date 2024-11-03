@@ -1,0 +1,56 @@
+/*DOCUMENTO CSS*/
+
+*{margin: 0;
+  padding: 0;}
+
+
+section, div { box-sizing: border-box; }
+
+/*Encabezados*/
+
+h2 { display: block;
+     width: 100%;
+     padding: 20px 0px;
+     background-color: coral; }
+
+/*LAYOUT*/
+
+.media { width: 100%; 
+         padding: 15px;
+         background-color: blueviolet;}
+
+.container { width: 100%;
+             display: flex; 
+             flex-direction: column;}
+
+.items { width: 100%; }
+
+.items img {width: 100%;}
+
+/*MEDIA QUIERES*/
+
+@media only screen and (min-width:500px) { 
+
+    .media { background-color: chartreuse; }
+
+    h2 {  background-color: cyan;}
+}
+
+@media only screen and (min-width:992px) { 
+
+    .media { background-color: rgb(255, 72, 0); }
+
+    h2 {  background-color: rgb(27, 190, 21);}
+
+    .container { flex-direction: row; }
+
+    .items { padding: 15px; }
+
+
+}
+
+@media only screen and (min-width:1280px) { 
+
+    .container { width: 80%;
+                 margin: auto; }
+}

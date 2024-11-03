@@ -1,0 +1,49 @@
+/*Documento*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fdf3e7;
+    color: #333;
+    text-align: center;
+    margin: 0;
+}
+
+/* Encabezados */
+h1 {
+    color: #b22222;
+    font-size: 4em;
+    margin-top: 20px;
+}
+
+h2 {
+    color: #b22222;
+    font-size: 2em;
+    margin: 20px 0 10px;
+}
+
+/* Listado de elementos del menú */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Estilo de los elementos del menú */
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+    font-size: 2em;
+    color: #555;
+}
+
+/* Separador de precio */
+.price {
+    color: #b22222;
+}
+
+body{
+    margin: auto;
+    width: 640px;
+    padding: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aquamarine;
+}

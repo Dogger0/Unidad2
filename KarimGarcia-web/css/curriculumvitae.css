@@ -1,0 +1,70 @@
+/*docuemnto css*/
+
+*{ margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: small;
+   
+ }
+
+.container { display: flex;
+             padding: 0 20%;
+             }
+
+aside { width: 30%;
+        background-color: #ca6623;
+        padding: 5%;
+        color: white;
+}
+
+main { width: 70%;
+       background-color: aliceblue;
+       padding: 5%;
+}
+
+.fperfil img { width: 100%;
+           border-radius: 50%;
+           box-shadow: 0 0 10px white; 
+           margin-bottom: 40px;
+           }
+
+.flex-container { display: flex; }
+
+.margin-title { margin: 50px 0 20px 0; }
+
+.margin-icon { margin-right: 10px; }
+
+.contact div { margin-bottom: 10px; }
+
+.margin-row { margin-bottom: 10px; }
+
+.social a { width: 20%; 
+            margin: 2%;}
+
+.social img { width: 100%;
+              filter: invert(); }
+
+.social div { flex-wrap: wrap;
+              display: flex;
+               }
+
+
+h1 { font-size: 50px;
+     color: #d68915; }
+
+hr { width: 10%;
+     background-color: rgb(134, 134, 134);
+    border-style: none;
+    height: 4px;
+    margin: 2% 0; }
+
+h2, section h3 { color: #7a540f; }
+
+.footer { padding: 15px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+}

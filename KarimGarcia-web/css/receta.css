@@ -1,0 +1,62 @@
+/*Documento css*/
+
+
+.titulo { padding: 0px; 
+      width: 80%;
+      text-align: center;
+      margin: auto;}
+
+.h2titulo { text-align: center; }
+
+.header{  width: 100%;
+          padding: 9px;
+          border: 1px;
+          margin: 10px;
+          }
+
+.contenedor{ background: #247543; 
+    padding: 15px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-around;
+    min-height: 60px;
+    box-sizing: border-box;
+    border: 2px solid;
+   }
+
+
+.h2titulo { text-align: center; }
+
+.preparacion { padding: 15px;
+               width: 80%;
+               margin: auto; 
+               box-sizing: border-box;
+               columns: 2;
+               background-color: #247543;
+               border: 2px solid}
+
+
+.lasaña {
+    width: 40%;
+    margin: auto;
+    float: left;
+    padding: 15px;}
+
+.img { width: 40%;
+       padding: 5%;
+       display: flex;
+       flex-flow: wrap row;  
+       float: left;
+       justify-content: center;
+    }
+
+.footer { padding: 15px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-around;
+    
+        }
